@@ -1,0 +1,42 @@
+
+/* General */
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.p-continer {
+    display: grid;
+    grid-template-rows: repeat(4,100vh);
+}
+
+
+/* Section one  */
+
+.s-one {
+    grid-row: 1/2;
+    background-color: #4CAF50;
+    overflow: hidden;
+} 
+
+
+/* Section two  */
+
+.s-two {
+    grid-row: 2/3;
+    background-color: #673AB7;
+}
+
+/* Section three  */
+
+.s-three {
+    grid-row: 3/4;
+    background-color: #CDDC39;
+}
+
+/* Section fore  */
+
+.s-fore {
+    grid-row: 4/5;
+    background-color: #E91E63;
+}
