@@ -1,0 +1,18 @@
+$(document).ready(function(){
+    $("#home-l").click(function(){
+         $path=$("#home").offset().top;
+         $('body').animate({scrollTop:$path},1000);
+    });
+    $("#paths-l").click(function(){
+         $path=$("#paths").offset().top;
+         $('body').animate({scrollTop:$path},1000);
+    });
+    $("#tools-l").click(function(){
+         $path=$("#tools").offset().top;
+         $('body').animate({scrollTop:$path},1000);
+    });
+    $("#about-l").click(function(){
+         $path=$("#about").offset().top;
+         $('body').animate({scrollTop:$path},1000);
+    });
+ });
