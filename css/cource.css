@@ -1,13 +1,16 @@
 /* General */
 @font-face {
-    font-family: font;
-    src: url(../font/PT_Serif-Web-Regular.ttf);
+    font-family: Header;
+    src: url(../font/Roboto/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: Prguler;
+    src: url(../font/Roboto/Roboto-Light.ttf)
 }
 
 body {
-    font-family: font, serif;
-
-
+    font-family: Prguler;
 }
 
 h1,h2,h3,h4,h5,h6,p {
@@ -21,7 +24,14 @@ h1,h2,h3,h4,h5,h6,p {
     top: 20px;
     left: 20px;
     text-decoration-line: none;
+    font-weight: bolder;
 } 
+
+#go-down {
+    position: relative;
+    bottom: 30px;
+    color: #FFF;
+}
 
 /* Boxes */
 
@@ -75,6 +85,7 @@ h1,h2,h3,h4,h5,h6,p {
     background-color: #2E88C5; /* Basecamp color */
     color: #FFF;
     grid-row: 1/2;
+    font-weight: bolder;
 }
 
 .continer .c-box .b-img {
@@ -115,5 +126,4 @@ h1,h2,h3,h4,h5,h6,p {
     transform: scale(1.1); 
     background-color: #34aee2;
 }
-#html {
-}
+

@@ -1,11 +1,17 @@
 /* General */
+/* font */
 @font-face {
-    font-family: font;
-    src: url(../font/PT_Serif-Web-Regular.ttf);
+    font-family: Header;
+    src: url(../font/Roboto/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: Prguler;
+    src: url(../font/Roboto/Roboto-Light.ttf)
 }
 
 body {
-    font-family: font, serif;
+    font-family: Prguler;
     display: grid;
     grid-template-rows: 1fr 1fr;
     height: 100vh;
@@ -38,7 +44,7 @@ h1,h2,h3,h4,h5,h6,p {
 
 .continer .c-box {
     width: 200px;
-    height: 250px;
+    height: 225px;
     background-color: #fafafa;
     border-radius: 7px; 
     margin: 10px;
@@ -46,6 +52,7 @@ h1,h2,h3,h4,h5,h6,p {
     flex-direction: column;
     box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
     transition: .17s;
+    text-decoration-line: none;
 }
 
 .continer .c-box:hover {
@@ -98,6 +105,4 @@ h1,h2,h3,h4,h5,h6,p {
 .continer .c-box .b-btn:hover {
     transform: scale(1.1); 
     background-color: #34aee2;
-}
-#html {
 }
